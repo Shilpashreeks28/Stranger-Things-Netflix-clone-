@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-right: 10px;
+}
+
+header>img {
+    width: 200px;
+}
+
+header>section {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#join-now-btn {
+    background: #e50914;
+    color: #fff;
+    width: 110px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#sign-in-btn {
+    background: transparent;
+    color: #fff;
+    border: 1px solid;
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#movie_banner {
+    color: white;
+    position: relative;
+}
+
+#movie_banner>img {
+    width: 100%;
+    height: 100vh;
+    transform: scaleX(-1);
+    opacity: .8;
+}
+
+#movie_details {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#movie_title {
+    font-size: 60px;
+    font-family: emoji;
+    font-weight: 900;
+    word-spacing: 20px;
+    letter-spacing: -7px;
+}
+
+#movie_details_top {
+    display: grid;
+}
+
+#netflix_series {
+    display: flex;
+    align-items: center;
+    letter-spacing: 5px;
+    gap: 10px;
+}
+
+#netflix_series>img {
+    width: 20px;
+}
+
+#movie_details_bottom {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+mark {
+    color: #919191;
+    background: transparent;
+}
+
+#movie_creator_details {
+    display: flex;
+    flex-direction: column;
+}
+
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#movies>img {
+    width: 450px;
+    height: 250px;
+    margin: 20px;
+    cursor: pointer;
+}
